@@ -7,10 +7,11 @@ class ResaleShop:
     
     # How will you set up your constructor?
     # Remember: in python, all constructors have the same name (__init__)
-    def __init__():
+    def __init__(self):
         pass # You'll remove this when you fill out your constructor
 
     # What methods will you need?
     def buy(self):
+        pass
         # 1. Call computer(..) constructor to create a new computer instance
         # 2. call inventory.append(...) to add the new computer instance to the inventory
