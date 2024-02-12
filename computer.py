@@ -28,10 +28,13 @@ class Computer:
         #pass # You'll remove this when you fill out your constructor
 
     # What methods will you need?
-    def set_price(self, price): 
+    def get_year(self): #outputs the price of a computer
+        return self.year_made
+    def set_price(self, price:int): 
         self.price = price #changes price
-    def update_OS(self, new_OS):
+    def update_OS(self, new_OS:str):
         self.operating_system = new_OS #changes operating systems
-     
+    def get_description(self): #outputs the name of a computer
+        return self.description 
     
     
