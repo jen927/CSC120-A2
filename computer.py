@@ -25,16 +25,15 @@ class Computer:
         self.operating_system = operating_system
         self.year_made = year_made
         self.price = price
-        #pass # You'll remove this when you fill out your constructor
 
     # What methods will you need?
-    def get_year(self): #outputs the price of a computer
+    def get_year(self): #outputs the year model of a computer
         return self.year_made
     def set_price(self, price:int): 
         self.price = price #changes price
     def update_OS(self, new_OS:str):
         self.operating_system = new_OS #changes operating systems
-    def get_description(self): #outputs the name of a computer
+    def get_description(self): #model of a computer
         return self.description 
     
     
